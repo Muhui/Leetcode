@@ -1,3 +1,5 @@
+package Leetcode.Array;
+
 class Solution {
     public int numSubarrayBoundedMax(int[] A, int L, int R) {
         int start = -1, last = -1, res = 0;
